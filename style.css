@@ -23,7 +23,6 @@ h1 span {
 
 .flexible-container {
     display: flex;
-    align-items: center;
 }
 .top-banner {
     background-image: url(images/top-banner.png);
@@ -47,6 +46,7 @@ div img {
     padding: 6px 14px;
     color: #fff;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .dream-big {
@@ -58,4 +58,28 @@ div img {
 
 .experience-area {
     padding-left: 5%;
+}
+
+.experience-area h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(1, 1, 78);
+    font-weight: 600;
+}
+
+.experience-area h4{
+    color: orangered;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.experience-area .half-width{
+    padding: 3%;
+}
+
+.experience-item {
+    box-shadow: 0 0 34px -4px rgba(0, 0, 0, .5);
+    margin: 100px;
+    border-radius: 0 5px 5px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, red, rgb(247, 0, 255)) 1 100%;
 }
