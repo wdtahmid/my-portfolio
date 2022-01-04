@@ -83,3 +83,10 @@ div img {
     border-left: 5px solid;
     border-image: linear-gradient(to bottom, red, rgb(247, 0, 255)) 1 100%;
 }
+
+footer {
+    padding: 10px 0;
+}
+.text-center {
+    text-align: center;
+}
