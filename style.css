@@ -21,7 +21,7 @@ h1 span {
     color: darkorange;
 }
 
-section {
+.flexible-container {
     display: flex;
     align-items: center;
 }
@@ -30,7 +30,7 @@ section {
     background-repeat: no-repeat;
     margin-bottom: 150px;
 }
-section div {
+.half-width {
     width: 50%;
     padding-left: 5%;
 }
@@ -54,4 +54,8 @@ div img {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    padding-left: 5%;
 }
